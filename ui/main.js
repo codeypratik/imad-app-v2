@@ -28,7 +28,7 @@ request.send(null);
         //make a request to the server and send the name
         //capture a list of names and render it as list
         
-        var name=['name1','name2','name3'];
+        var names=['name1','name2','name3'];
         var list='';
         for(var i=0;i<names.length;i++){
             list+='<li>'+names[i]+'</li>';
