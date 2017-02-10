@@ -1,5 +1,4 @@
 var button = document.getElementById('counter');
-var counter=0;
 
 button.onclick = function(){
     
@@ -16,7 +15,7 @@ button.onclick = function(){
         }
     };
 
-request.open('GET','http://codeypratik.imad.hasura-app.io/')
+request.open('GET','http://codeypratik.imad.hasura-app.io/');
 request.send(null);
 };
 
