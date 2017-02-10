@@ -15,7 +15,7 @@ button.onclick = function(){
         }
     };
 
-request.open('GET','http://codeypratik.imad.hasura-app.io/');
+request.open('GET','http://codeypratik.imad.hasura-app.io/', true);
 request.send(null);
 };
 
