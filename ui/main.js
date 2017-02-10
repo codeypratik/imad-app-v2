@@ -6,4 +6,4 @@ button.onclick = function(){
     counter = counter+1;
     var span = documne.getElementById('count');
     span.innerHTML = counter.toString();
-}
+};
